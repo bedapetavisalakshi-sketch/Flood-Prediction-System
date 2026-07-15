@@ -1,1 +1,184 @@
+# 🌊 Flood Prediction System using Machine Learning
 
+## 📌 Project Description
+
+The Flood Prediction System is an AI and Machine Learning-based web application that predicts flood risk using historical disaster and environmental data. The system helps users analyze flood-related parameters and provides an estimated flood risk percentage through an interactive web dashboard.
+
+This project was developed as part of the **AI-ML-and-GEN-AI Track** and demonstrates the application of machine learning techniques in disaster management.
+
+---
+
+## 🎯 Objectives
+
+- Predict flood risk using Machine Learning.
+- Analyze environmental and disaster-related parameters.
+- Provide a user-friendly web interface.
+- Assist in early flood risk assessment.
+- Support disaster preparedness and decision-making.
+
+---
+
+## 🚀 Features
+
+- Flood Prediction Dashboard
+- Machine Learning Model Integration
+- Interactive User Interface
+- Flood Risk Percentage
+- Data Visualization using Chart.js
+- Responsive Web Design
+
+---
+
+## 🛠️ Technologies Used
+
+### Programming Language
+- Python
+
+### Machine Learning Libraries
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+
+### Web Technologies
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+- Chart.js
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## 📂 Repository Structure
+
+```
+AI-ML-and-GEN-AI-Track-Project-Template
+│
+├── 1.Brainstorming & Ideation
+├── 2.Requirement Analysis
+├── 3.Project Design Phase
+├── 4.Project Planning Phase
+├── 5.Project Development Phase
+├── 6.Project Testing
+├── 7.Project Documentation
+└── 8.Project Demonstration
+```
+
+---
+
+## 📥 Input Parameters
+
+- Disaster Type
+- Latitude
+- Longitude
+- Total Deaths
+- Total Affected
+- Duration
+- Time
+- Rainfall
+- Elevation
+- Slope
+- Distance
+
+---
+
+## 📤 Output
+
+The application provides:
+
+- Flood Prediction Result
+- Flood Risk Percentage
+- Doughnut Chart
+- Bar Chart
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/bedapetavisalakshi-sketch/Flood-Prediction-System.git
+```
+
+Move into the project directory:
+
+```bash
+cd Flood-Prediction-System
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🧪 Testing
+
+The project includes:
+
+- Test Plan
+- Test Cases
+- Test Results
+- Bug Report
+
+---
+
+## 📄 Documentation
+
+The repository contains:
+
+- Brainstorming & Ideation
+- Requirement Analysis
+- Design Documents
+- Project Planning
+- Development Files
+- Testing Documents
+- Project Documentation
+- Demonstration Screenshots
+
+---
+
+## 🔮 Future Enhancements
+
+- Real-time Weather API Integration
+- GIS Map Visualization
+- SMS and Email Alerts
+- Deep Learning-based Prediction
+- Mobile Application Support
+- Cloud Deployment
+
+---
+
+## 👩‍💻 Developer
+
+**Visalakshi**
+
+B.Tech – Computer Science and Engineering
+
+AI-ML-and-GEN-AI Track Project
+
+---
+
+## 📜 License
+
+This project is created for educational and academic purposes.
