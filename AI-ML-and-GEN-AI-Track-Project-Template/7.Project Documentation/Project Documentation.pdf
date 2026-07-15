@@ -1,0 +1,2187 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3037
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0 g
+248.4800000000000182 735.3070866141732722 Td
+(Text Document) Tj
+ET
+BT
+/F3 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 692.7874015748031979 Td
+(Generated on: 15/7/2026) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 664.4409448818897772 Td
+(# PROJECT DOCUMENTATION) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 626.0409206929133461 Td
+(# Flood Prediction System Using Machine Learning) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 587.6408965039370287 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 549.2408723149605976 Td
+(# 1. Project Title) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 510.8408481259841665 Td
+(## Flood Prediction System Using Machine Learning) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 472.4408239370077354 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 434.0407997480313043 Td
+(# 2. Project Overview) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 395.6407755590549868 Td
+(Floods are among the most dangerous natural disasters that affect human lives, infrastructure,) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 376.4407634645667713 Td
+(agriculture, and the environment. Early prediction of floods helps government authorities and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 357.2407513700786126 Td
+(disaster management teams take preventive actions.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 318.8407271811022952 Td
+(The Flood Prediction System is a Machine Learning-based application designed to predict) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 299.6407150866141365 Td
+(flood risk by analyzing historical flood data and environmental parameters. The system uses) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 280.4407029921259777 Td
+(Machine Learning algorithms to identify patterns from previous flood events and provide) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 261.240690897637819 Td
+(accurate predictions.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 222.8406667086615016 Td
+(The trained Machine Learning model is integrated with a Flask web application where users) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 203.6406546141732861 Td
+(can enter environmental details and receive flood risk predictions.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 165.2406304251969686 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 126.8406062362206512 Td
+(# 3. Abstract) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 88.4405820472443338 Td
+(The objective of this project is to develop an intelligent Flood Prediction System using Machine) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3762
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0 g
+248.4800000000000182 735.3070866141732722 Td
+(Text Document) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 692.7874015748031979 Td
+(Learning techniques. The system analyzes various factors such as rainfall, geographical) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 673.5873894803149824 Td
+(location, elevation, slope, flood duration, and affected population to predict flood possibilities.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 635.1873652913385513 Td
+(Different Machine Learning algorithms such as Decision Tree, Random Forest, K-Nearest) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 615.9873531968503357 Td
+(Neighbor \(KNN\), and XGBoost are used for prediction. Among these models, the) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 596.7873411023622339 Td
+(best-performing model is selected and integrated into a Flask-based web application.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 558.3873169133858028 Td
+(The application provides a simple interface where users can provide input parameters and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 539.1873048188975872 Td
+(obtain flood risk results. This system helps in disaster preparedness and supports early) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 519.9872927244093717 Td
+(warning mechanisms.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 481.5872685354329406 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 443.1872443464565663 Td
+(# 4. Introduction) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 404.787220157480192 Td
+(Flood prediction is an important application of Machine Learning in disaster management.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 385.5872080629920333 Td
+(Traditional flood monitoring systems mainly depend on weather stations and manual analysis.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 347.1871838740157159 Td
+(Due to changes in climate conditions and increasing environmental risks, there is a need for) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 327.9871717795275003 Td
+(intelligent prediction systems. Machine Learning algorithms can analyze large amounts of) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 308.7871596850393416 Td
+(historical data and identify hidden patterns to improve flood prediction accuracy.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 270.3871354960630242 Td
+(This project focuses on developing a reliable and user-friendly flood prediction system.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 231.9871113070867068 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 193.5870871181103894 Td
+(# 5. Problem Statement) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 155.187062929134072 Td
+(Flood disasters cause serious damage to lives and property. Existing prediction methods may) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 135.9870508346458564 Td
+(not provide timely warnings due to limitations in data processing and analysis.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 97.587026645669539 Td
+(The problem is to develop a Machine Learning-based system that can analyze flood-related) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 78.3870145511814371 Td
+(parameters and predict flood risk efficiently.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 2) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2445
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(# 6. Objectives) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(The objectives of this project are:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(- To develop a Machine Learning model for flood prediction.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 581.7069898582676615 Td
+(- To analyze historical flood-related data.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(- To identify important environmental factors affecting floods.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 543.3069656692912304 Td
+(- To provide quick flood risk predictions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(- To create a web-based user interface using Flask.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 504.9069414803148561 Td
+(- To support early disaster preparation.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(# 7. Scope of the Project) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(The project can be used for:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(- Flood risk analysis.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(- Disaster management support.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(- Early warning systems.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(- Environmental monitoring.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 274.5067963464567811 Td
+(- Decision-making assistance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 236.1067721574804636 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(# 8. Technologies Used) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 159.3067237795278288 Td
+(## Programming Language) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 120.9066995905515114 Td
+(- Python) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(## Machine Learning Libraries) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 3) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 2164
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(- Pandas) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(- NumPy) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(- Scikit-learn) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 658.5070382362205237 Td
+(- XGBoost) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(- Joblib) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(## Web Framework) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(- Flask) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(## Frontend) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(- HTML) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(- CSS) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(- JavaScript) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(## Development Environment) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 370.5068568188976315 Td
+(- Visual Studio Code) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(# 9. System Requirements) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 255.3067842519685655 Td
+(## Hardware Requirements) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 216.9067600629922481 Td
+(- Processor: Intel i3 or above) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(- RAM: 4GB minimum) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 178.5067358740159307 Td
+(- Storage: 500MB free space) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 140.1067116850396133 Td
+(## Software Requirements) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 101.7066874960632958 Td
+(- Windows/Linux Operating System) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(- Python 3.x) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 4) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 2898
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(- VS Code) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(- Web Browser) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(# 10. System Architecture) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 620.1070140472440926 Td
+(         User) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 581.7069898582676615 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(    Input Parameters) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 543.3069656692912304 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 504.9069414803148561 Td
+(   Data Preprocessing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+( Machine Learning Model) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(   Flood Risk Prediction) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 370.5068568188976315 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(           |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(      Result Display) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(      ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 255.3067842519685655 Td
+(# 11. Dataset Description) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 216.9067600629922481 Td
+(The dataset contains historical flood and environmental information.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 178.5067358740159307 Td
+(## Input Features:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 140.1067116850396133 Td
+(| Feature | Description |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 120.9066995905515114 Td
+(|---------|-------------|) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 101.7066874960632958 Td
+(| Disaster Type | Type of disaster |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(| Latitude | Geographic latitude |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 5) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 2810
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(| Longitude | Geographic longitude |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(| Rainfall | Amount of rainfall |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(| Total Deaths | Number of deaths |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(| Total Affected | Number of affected people |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 658.5070382362205237 Td
+(| Duration | Flood duration |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(| Elevation | Height of location |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 620.1070140472440926 Td
+(| Slope | Land slope |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(| Distance | Distance parameter |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(The dataset is used for training and testing the Machine Learning model.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(# 12. Data Preprocessing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(The following preprocessing steps are performed:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(1. Dataset loading.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(2. Data cleaning.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 370.5068568188976315 Td
+(3. Handling missing values.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(4. Feature selection.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(5. Data transformation.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(6. Training and testing data splitting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 274.5067963464567811 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 236.1067721574804636 Td
+(# 13. Machine Learning Algorithms) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(## Decision Tree) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 159.3067237795278288 Td
+(Decision Tree uses a tree-based approach to make predictions based on decision rules.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 120.9066995905515114 Td
+(Advantages:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 101.7066874960632958 Td
+(- Simple implementation.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(- Easy interpretation.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 6) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 2175
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(## Random Forest) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(Random Forest combines multiple decision trees to improve prediction performance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(Advantages:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 581.7069898582676615 Td
+(- Higher accuracy.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(- Reduces overfitting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(## K-Nearest Neighbor \(KNN\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(KNN predicts results based on similarity between existing data points.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(Advantages:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(- Simple and effective.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 370.5068568188976315 Td
+(- Suitable for classification problems.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(## XGBoost) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 255.3067842519685655 Td
+(XGBoost is an advanced boosting algorithm used for improving prediction accuracy.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 216.9067600629922481 Td
+(Advantages:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(- High performance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 178.5067358740159307 Td
+(- Handles complex datasets.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 140.1067116850396133 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 101.7066874960632958 Td
+(# 14. Model Training Process) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 7) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 2601
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(Steps involved:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(1. Import required libraries.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(2. Load flood dataset.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 658.5070382362205237 Td
+(3. Perform preprocessing.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(4. Split dataset into training and testing sets.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 620.1070140472440926 Td
+(5. Train Machine Learning models.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(6. Evaluate model performance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 581.7069898582676615 Td
+(7. Select the best model.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(8. Save trained model as pickle file.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(# 15. Flask Web Application) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(The Flask application provides a user interface for flood prediction.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(## Working Process:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 370.5068568188976315 Td
+(1. User enters required parameters.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(2. Input values are sent to Flask backend.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(3. Saved ML model processes the data.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(4. Prediction is generated.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(5. Result is displayed on the webpage.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 255.3067842519685655 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 216.9067600629922481 Td
+(# 16. Project Modules) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 178.5067358740159307 Td
+(## Module 1: Data Collection) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 140.1067116850396133 Td
+(Collects historical flood and environmental information.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 101.7066874960632958 Td
+(## Module 2: Data Preprocessing) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 8) Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 2085
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(Cleans and prepares data for model training.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(## Module 3: Model Training) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 658.5070382362205237 Td
+(Creates and evaluates Machine Learning models.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 620.1070140472440926 Td
+(## Module 4: Prediction Module) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 581.7069898582676615 Td
+(Predicts flood risk using trained model.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 543.3069656692912304 Td
+(## Module 5: User Interface) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 504.9069414803148561 Td
+(Provides a web interface for users.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(# 17. Project Testing Documentation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(Testing was performed to verify system functionality and reliability.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(The following testing documents are included:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(## Test Plan) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 274.5067963464567811 Td
+(Describes testing objectives, approach, and testing strategy.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 236.1067721574804636 Td
+(File:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(## Test Cases) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 159.3067237795278288 Td
+(Contains different scenarios used to test system functionality.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 120.9066995905515114 Td
+(File:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(## Test Results) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 9) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 2181
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(Contains execution results of test cases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(File:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(## Bug Report) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(Contains identified issues and their solutions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 543.3069656692912304 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 504.9069414803148561 Td
+(# 19. Advantages) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(- Provides quick flood prediction.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(- Reduces manual analysis.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(- Supports disaster management.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(- Easy-to-use interface.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(- Uses Machine Learning techniques.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(# 20. Limitations) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 274.5067963464567811 Td
+(- Accuracy depends on dataset quality.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 255.3067842519685655 Td
+(- Requires updated environmental data.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 236.1067721574804636 Td
+(- Cannot replace real-time monitoring systems.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 197.7067479685041462 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 159.3067237795278288 Td
+(# 21. Future Enhancements) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 120.9066995905515114 Td
+(Future improvements include:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 82.506675401575194 Td
+(- Integration with real-time weather APIs.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+287.5500000000000682 28.3464566929134207 Td
+(Page 10) Tj
+ET
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 2214
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(- Satellite image-based flood detection.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(- Mobile application development.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(- Cloud deployment.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(- Real-time flood alerts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(# 22. Conclusion) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(The Flood Prediction System using Machine Learning provides an effective solution for) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 543.3069656692912304 Td
+(predicting flood risks based on environmental and geographical factors.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 504.9069414803148561 Td
+(By combining Machine Learning algorithms with a Flask web application, the system provides) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(quick predictions through an easy-to-use interface. This project can support disaster) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(management teams in preparing for possible flood situations and reducing damage.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 389.7068689133857902 Td
+(# 23. References) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 351.3068447244094727 Td
+(- Python Documentation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 332.1068326299212572 Td
+(- Flask Documentation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 312.9068205354330985 Td
+(- Scikit-learn Documentation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 293.7068084409449398 Td
+(- Machine Learning Research Papers) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 274.5067963464567811 Td
+(- Disaster Management Resources) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+287.5500000000000682 28.3464566929134207 Td
+(Page 11) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R ]
+/Count 11
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+29 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+30 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+31 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+33 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+34 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+35 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+36 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+37 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+38 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 25 0 R
+/F2 26 0 R
+/F3 27 0 R
+/F4 28 0 R
+/F5 29 0 R
+/F6 30 0 R
+/F7 31 0 R
+/F8 32 0 R
+/F9 33 0 R
+/F10 34 0 R
+/F11 35 0 R
+/F12 36 0 R
+/F13 37 0 R
+/F14 38 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+39 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20260715193303+05'30')
+>>
+endobj
+40 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 41
+0000000000 65535 f 
+0000030313 00000 n 
+0000032203 00000 n 
+0000000015 00000 n 
+0000000136 00000 n 
+0000003225 00000 n 
+0000003346 00000 n 
+0000007160 00000 n 
+0000007281 00000 n 
+0000009778 00000 n 
+0000009900 00000 n 
+0000012117 00000 n 
+0000012240 00000 n 
+0000015191 00000 n 
+0000015314 00000 n 
+0000018177 00000 n 
+0000018300 00000 n 
+0000020528 00000 n 
+0000020651 00000 n 
+0000023305 00000 n 
+0000023428 00000 n 
+0000025566 00000 n 
+0000025689 00000 n 
+0000027923 00000 n 
+0000028046 00000 n 
+0000030438 00000 n 
+0000030564 00000 n 
+0000030695 00000 n 
+0000030829 00000 n 
+0000030967 00000 n 
+0000031091 00000 n 
+0000031220 00000 n 
+0000031352 00000 n 
+0000031488 00000 n 
+0000031616 00000 n 
+0000031743 00000 n 
+0000031872 00000 n 
+0000032005 00000 n 
+0000032107 00000 n 
+0000032456 00000 n 
+0000032542 00000 n 
+trailer
+<<
+/Size 41
+/Root 40 0 R
+/Info 39 0 R
+/ID [ <9EDEF01A2FE61D659B08F50E2116ABBE> <9EDEF01A2FE61D659B08F50E2116ABBE> ]
+>>
+startxref
+32646
+%%EOF
