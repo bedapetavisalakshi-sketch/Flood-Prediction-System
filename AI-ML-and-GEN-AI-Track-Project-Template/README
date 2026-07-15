@@ -1,35 +1,33 @@
-# 🌊 Flood Prediction System using Machine Learning
+# 🌊 Flood Prediction System
 
-## 📌 Project Description
+An AI and Machine Learning based web application that predicts the likelihood of floods using environmental and disaster-related parameters such as rainfall, elevation, slope, latitude, longitude, affected population, and other geographical features.
 
-The Flood Prediction System is an AI and Machine Learning-based web application that predicts flood risk using historical disaster and environmental data. The system helps users analyze flood-related parameters and provides an estimated flood risk percentage through an interactive web dashboard.
-
-This project was developed as part of the **AI-ML-and-GEN-AI Track** and demonstrates the application of machine learning techniques in disaster management.
+The project demonstrates the complete Machine Learning workflow—from data preprocessing and visualization to model training and deployment using Flask.
 
 ---
 
-## 🎯 Objectives
+## 📌 Project Overview
 
-- Predict flood risk using Machine Learning.
-- Analyze environmental and disaster-related parameters.
-- Provide a user-friendly web interface.
-- Assist in early flood risk assessment.
-- Support disaster preparedness and decision-making.
+The Flood Prediction System helps users estimate flood risk by analyzing important environmental factors. Users can enter disaster-related information through an interactive web interface and instantly receive a flood prediction along with the estimated flood risk percentage and graphical visualization.
 
 ---
 
 ## 🚀 Features
 
-- Flood Prediction Dashboard
-- Machine Learning Model Integration
-- Interactive User Interface
-- Flood Risk Percentage
-- Data Visualization using Chart.js
-- Responsive Web Design
+- 🌊 Flood Prediction Dashboard
+- 🤖 Machine Learning-Based Prediction
+- 📊 Interactive Data Visualization using Chart.js
+- 📈 Flood Risk Percentage
+- 🧹 Data Preprocessing
+- 📉 Model Training and Evaluation
+- 🌐 Flask Web Application
+- 💻 Responsive User Interface
+- 🎨 Modern Animated Dashboard
+- 🔄 Predict Again Functionality
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 ### Programming Language
 - Python
@@ -54,20 +52,50 @@ This project was developed as part of the **AI-ML-and-GEN-AI Track** and demonst
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```
-AI-ML-and-GEN-AI-Track-Project-Template
+Flood-Prediction-System
 │
-├── 1.Brainstorming & Ideation
-├── 2.Requirement Analysis
-├── 3.Project Design Phase
-├── 4.Project Planning Phase
-├── 5.Project Development Phase
-├── 6.Project Testing
-├── 7.Project Documentation
-└── 8.Project Demonstration
+├── AI-ML-and-GEN-AI-Track-Project-Template
+│   │
+│   ├── 1.Brainstorming & Ideation
+│   ├── 2.Requirement Analysis
+│   ├── 3.Project Design Phase
+│   ├── 4.Project Planning Phase
+│   ├── 5.Project Development Phase
+│   ├── 6.Project Testing
+│   ├── 7.Project Documentation
+│   └── 8.Project Demonstration
+│       └── Screenshots
+│
+├── static
+│   ├── style.css
+│   └── flood.jpg
+│
+├── templates
+│   └── index.html
+│
+├── app.py
+├── train_model.py
+├── flood_model.pkl
+├── requirements.txt
+└── README.md
 ```
+
+---
+
+## 📊 Machine Learning Workflow
+
+- Dataset Collection
+- Data Cleaning
+- Data Preprocessing
+- Feature Selection
+- Train-Test Split
+- Machine Learning Model Training
+- Model Evaluation
+- Model Serialization using Joblib
+- Flask Deployment
 
 ---
 
@@ -89,12 +117,28 @@ AI-ML-and-GEN-AI-Track-Project-Template
 
 ## 📤 Output
 
-The application provides:
+The application predicts:
 
-- Flood Prediction Result
+- Flood Prediction Status
 - Flood Risk Percentage
 - Doughnut Chart
 - Bar Chart
+
+---
+
+## 📷 Screenshots
+
+### 🏠 Home Page
+
+*Add Home_Page.jpeg here*
+
+### 📊 Prediction Result
+
+*Add Prediction_Result.jpeg here*
+
+### 📈 Flood Risk Chart
+
+*Add Testing_Output.jpeg here*
 
 ---
 
@@ -106,13 +150,13 @@ Clone the repository:
 git clone https://github.com/bedapetavisalakshi-sketch/Flood-Prediction-System.git
 ```
 
-Move into the project directory:
+Move to the project folder:
 
 ```bash
 cd Flood-Prediction-System
 ```
 
-Install the required packages:
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -124,11 +168,24 @@ Run the application:
 python app.py
 ```
 
-Open your browser and visit:
+Open your browser:
 
 ```
 http://127.0.0.1:5000
 ```
+
+---
+
+## 🤖 Machine Learning Model
+
+Algorithms used:
+
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- XGBoost
+
+The best-performing model is used for prediction in the Flask application.
 
 ---
 
@@ -153,19 +210,20 @@ The repository contains:
 - Project Planning
 - Development Files
 - Testing Documents
-- Project Documentation
+- Final Project Documentation
 - Demonstration Screenshots
 
 ---
 
-## 🔮 Future Enhancements
+## 🎯 Future Enhancements
 
-- Real-time Weather API Integration
-- GIS Map Visualization
-- SMS and Email Alerts
-- Deep Learning-based Prediction
-- Mobile Application Support
+- Real-Time Weather API Integration
+- GIS Map Integration
+- SMS & Email Alerts
+- Deep Learning Models
 - Cloud Deployment
+- Mobile Application
+- Live Flood Monitoring Dashboard
 
 ---
 
@@ -181,4 +239,4 @@ AI-ML-and-GEN-AI Track Project
 
 ## 📜 License
 
-This project is created for educational and academic purposes.
+This project is developed for educational and learning purposes.
