@@ -1,0 +1,761 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4040
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0 g
+248.4800000000000182 735.3070866141732722 Td
+(Text Document) Tj
+ET
+BT
+/F3 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 692.7874015748031979 Td
+(Generated on: 15/7/2026) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 664.4409448818897772 Td
+(# Bug Report) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 626.0409206929133461 Td
+(## Project Title) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 587.6408965039370287 Td
+(**Flood Prediction System Using Machine Learning**) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 549.2408723149605976 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 510.8408481259841665 Td
+(# 1. Introduction) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 472.4408239370077354 Td
+(This document records the issues identified during the development and testing of the Flood) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 453.2408118425195198 Td
+(Prediction System. Each bug was analyzed, corrected, and verified to ensure the stability and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 434.0407997480313043 Td
+(reliability of the application. The report serves as evidence of the debugging process and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 414.8407876535431456 Td
+(confirms that all major issues encountered during implementation were resolved successfully.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 376.4407634645667713 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 338.0407392755904539 Td
+(# 2. Bug Summary) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 299.6407150866141365 Td
+(| Bug ID | Module            | Description                                                            | Cause                 ) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 280.4407029921259777 Td
+(                                    | Resolution                                                                   | Status |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 261.240690897637819 Td
+(| ------ | ----------------- | ---------------------------------------------------------------------- |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 242.0406788031496035 Td
+(---------------------------------------------------------- |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 222.8406667086615016 Td
+(---------------------------------------------------------------------------- | ------ |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 203.6406546141732861 Td
+(| BUG-01 | Dataset Loading   | Dataset file could not be found during model training.                ) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 184.4406425196851842 Td
+(| Incorrect dataset path specified in the code.              | Updated the correct dataset path and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 165.2406304251969686 Td
+(verified successful loading.            | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 146.0406183307088668 Td
+(| BUG-02 | Model Loading     | `flood_model.pkl` file was missing when running the Flask) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 126.8406062362206512 Td
+(application. | Machine learning model had not been trained.               | Trained the model using) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 107.6405941417324357 Td
+(`train_model.py` and generated `flood_model.pkl`.    | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 88.4405820472443338 Td
+(| BUG-03 | Flask Application | Application failed to display prediction results.                      |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 1) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4443
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0 g
+248.4800000000000182 735.3070866141732722 Td
+(Text Document) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 692.7874015748031979 Td
+(Incorrect form field mapping between HTML and Flask.       | Updated input field names to) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 673.5873894803149824 Td
+(match the Flask backend.                        | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 654.3873773858267668 Td
+(| BUG-04 | CSS Styling       | CSS syntax errors caused the dashboard layout to break.            ) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 635.1873652913385513 Td
+(   | Incorrect placement of animation and selector blocks.      | Corrected the CSS syntax and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 615.9873531968503357 Td
+(verified the layout.                            | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 596.7873411023622339 Td
+(| BUG-05 | Image Loading     | Flood and cloud images were not displayed.                             |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 577.5873290078740183 Td
+(Images were missing or placed outside the `static` folder. | Moved image files to the correct) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 558.3873169133858028 Td
+(`static` directory.                         | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 539.1873048188975872 Td
+(| BUG-06 | Chart Display     | Charts were not visible after prediction.                              |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 519.9872927244093717 Td
+(Prediction values were not passed correctly to Chart.js.   | Corrected data binding between) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 500.7872806299211561 Td
+(Flask and the HTML template.                  | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 481.5872685354329406 Td
+(| BUG-07 | Input Validation  | Invalid or incomplete form submissions caused errors.                 ) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 462.3872564409447818 Td
+(| Required input validation was missing.                     | Added HTML validation using the) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 443.1872443464565663 Td
+(`required` attribute and proper input types. | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 423.9872322519683507 Td
+(| BUG-08 | UI Responsiveness | Dashboard layout was not properly aligned on smaller) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 404.787220157480192 Td
+(screens.          | Missing responsive CSS adjustments.                        | Added responsive CSS) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 385.5872080629920333 Td
+(rules using media queries.                              | Fixed  |) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 347.1871838740157159 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 308.7871596850393416 Td
+(# 3. Bug Resolution Process) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 270.3871354960630242 Td
+(The development process involved identifying bugs through continuous testing and) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 251.1871234015749224 Td
+(debugging. Errors related to dataset loading, model generation, HTML form handling, CSS) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 231.9871113070867068 Td
+(styling, and image rendering were corrected. Each issue was re-tested after applying the fix to) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 212.7870992125984912 Td
+(ensure that it no longer affected the application's functionality.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 174.3870750236221738 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 135.9870508346458564 Td
+(# 4. Final Status) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 97.587026645669539 Td
+(After resolving all identified issues:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 2) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.0000000000001137 792.]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 1999
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 735.3070866141732722 Td
+(* Dataset loads successfully.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 716.1070745196850567 Td
+(* Machine learning model loads without errors.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 696.9070624251968411 Td
+(* Prediction is generated correctly.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 677.7070503307086256 Td
+(* Dashboard interface displays properly.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 658.5070382362205237 Td
+(* Charts render successfully.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 639.3070261417323081 Td
+(* Images and animations load correctly.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 620.1070140472440926 Td
+(* User input validation functions as expected.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 600.907001952755877 Td
+(* The application runs smoothly without critical defects.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 562.5069777637795596 Td
+(---) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 524.1069535748031285 Td
+(# 5. Conclusion) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 485.7069293858266974 Td
+(All major bugs identified during the development and testing phases were successfully) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 466.5069172913384818 Td
+(resolved. The Flood Prediction System now operates as expected, providing reliable flood) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 447.3069051968502663 Td
+(predictions through a user-friendly web interface. Final verification confirmed that no critical or) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 428.1068931023621076 Td
+(high-priority defects remain, and the application is stable and ready for project demonstration) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 408.9068810078739489 Td
+(and deployment.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+290.3000000000000682 28.3464566929134207 Td
+(Page 3) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20260715192158+05'30')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000011016 00000 n 
+0000012849 00000 n 
+0000000015 00000 n 
+0000000136 00000 n 
+0000004228 00000 n 
+0000004349 00000 n 
+0000008844 00000 n 
+0000008965 00000 n 
+0000011085 00000 n 
+0000011210 00000 n 
+0000011341 00000 n 
+0000011475 00000 n 
+0000011613 00000 n 
+0000011737 00000 n 
+0000011866 00000 n 
+0000011998 00000 n 
+0000012134 00000 n 
+0000012262 00000 n 
+0000012389 00000 n 
+0000012518 00000 n 
+0000012651 00000 n 
+0000012753 00000 n 
+0000013101 00000 n 
+0000013187 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <BF1118F82B25625AD6BD18B8581DEAB3> <BF1118F82B25625AD6BD18B8581DEAB3> ]
+>>
+startxref
+13291
+%%EOF
