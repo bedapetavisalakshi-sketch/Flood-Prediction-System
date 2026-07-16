@@ -4,9 +4,6 @@ An AI and Machine Learning based web application that predicts the likelihood of
 
 The project demonstrates the complete Machine Learning workflow—from data preprocessing and visualization to model training and deployment using Flask.
 
-## 🎥 Demo Video
-
-https://1drv.ms/v/c/d35516d9029a5273/IQCp6aQKxoFIT52G2FPv7nd_AWK1xLYpwe1dcyLf0ZqqBCs?e=ak330f
 
 ## 📌 Project Overview
 
