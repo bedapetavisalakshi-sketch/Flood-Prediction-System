@@ -1,11 +1,10 @@
-
 from flask import Flask, render_template, request
 import pandas as pd
 import joblib
 
 app = Flask(__name__)
 
-# Load Model
+# Load trained Machine Learning model
 model = joblib.load("flood_model.pkl")
 
 
@@ -25,19 +24,21 @@ def home():
 def predict():
     try:
 
-        disaster_type = int(request.form.get("Disaster_Type", 0))
-        latitude = float(request.form.get("Latitude", 0))
-        longitude = float(request.form.get("Longitude", 0))
-        total_deaths = float(request.form.get("Total_Deaths", 0))
-        total_affected = float(request.form.get("Total_Affected", 0))
-        duration = float(request.form.get("duration", 0))
-        time = float(request.form.get("time", 0))
-        rainfall = float(request.form.get("Rainfall", 0))
-        elevation = float(request.form.get("Elevation", 0))
-        slope = float(request.form.get("Slope", 0))
-        distance = float(request.form.get("distance", 0))
+        # Get input values from HTML form
+        disaster_type = int(request.form["Disaster_Type"])
+        latitude = float(request.form["Latitude"])
+        longitude = float(request.form["Longitude"])
+        total_deaths = float(request.form["Total_Deaths"])
+        total_affected = float(request.form["Total_Affected"])
+        duration = float(request.form["duration"])
+        time = float(request.form["time"])
+        rainfall = float(request.form["Rainfall"])
+        elevation = float(request.form["Elevation"])
+        slope = float(request.form["Slope"])
+        distance = float(request.form["distance"])
 
-        df = pd.DataFrame([{
+        # Create DataFrame
+        input_data = pd.DataFrame([{
             "Disaster Type": disaster_type,
             "Latitude": latitude,
             "Longitude": longitude,
@@ -51,13 +52,16 @@ def predict():
             "distance": distance
         }])
 
-        prediction = model.predict(df)[0]
+        # Prediction
+        prediction = int(model.predict(input_data)[0])
 
+        # Risk Percentage
         if hasattr(model, "predict_proba"):
-            risk = int(model.predict_proba(df)[0][1] * 100)
+            risk = round(model.predict_proba(input_data)[0][1] * 100, 2)
         else:
-            risk = 85 if prediction == 1 else 15
+            risk = 90 if prediction == 1 else 10
 
+        # Prediction Message
         if prediction == 1:
             result = "🌊 Flood Likely"
         else:
@@ -75,13 +79,18 @@ def predict():
     except Exception as e:
         return render_template(
             "index.html",
-            prediction="Error: " + str(e),
+            prediction="❌ Error occurred",
             rainfall=0,
             deaths=0,
             affected=0,
-            risk=0
+            risk=0,
+            error=str(e)
         )
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=True
+    )
