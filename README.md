@@ -228,7 +228,7 @@ The repository contains:
 
 ## 👩‍💻 Developer
 
-**Visalakshi**
+**Visalakshi Bedapeta**
 
 B.Tech – Computer Science and Engineering
 
