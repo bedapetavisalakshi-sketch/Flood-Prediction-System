@@ -6,7 +6,7 @@ The project demonstrates the complete Machine Learning workflow—from data prep
 
 ## 🎥 Demo Video
 
-🔗https://drive.google.com/file/d/1uh9acaNL-87hRQs6zDU2iZKrQBNdAmbL/view?usp=sharing
+https://1drv.ms/v/c/d35516d9029a5273/IQCp6aQKxoFIT52G2FPv7nd_AWK1xLYpwe1dcyLf0ZqqBCs?e=ak330f
 
 ## 📌 Project Overview
 
