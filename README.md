@@ -128,15 +128,18 @@ The application predicts:
 
 ### 🏠 Home Page
 
-*Add Home_Page.jpeg here*
+<img width="720" height="1036" alt="Home_Page" src="https://github.com/user-attachments/assets/e9ff8051-b37d-4316-963c-bb2ec72a326f" />
 
-### 📊 Prediction Result
 
-*Add Prediction_Result.jpeg here*
+### 📊 Input Page
+
+<img width="720" height="1028" alt="Input_Form" src="https://github.com/user-attachments/assets/e98a90ce-e36f-4b81-a97b-b00cc5da9c63" />
+
 
 ### 📈 Flood Risk Chart
 
-*Add Testing_Output.jpeg here*
+<img width="712" height="1108" alt="Testing_Output" src="https://github.com/user-attachments/assets/21723c5f-9eca-4611-a7e8-98aef193aa04" />
+
 
 ---
 
