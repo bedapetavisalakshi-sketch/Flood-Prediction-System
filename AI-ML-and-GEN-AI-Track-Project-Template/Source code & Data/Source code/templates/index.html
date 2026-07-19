@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flood Prediction Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background"></div>
+
+    <div class="container">
+
+        <h1>🌊 Flood Prediction Dashboard</h1>
+
+        <!-- Flood Image -->
+        <img src="{{ url_for('static', filename='flood.jpg') }}"
+             alt="Flood Image"
+             class="flood-img"
+             loading="lazy">
+
+        <!-- Prediction Form -->
+        <form action="/predict" method="POST">
+
+            <label for="Disaster_Type">Disaster Type</label>
+            <select name="Disaster_Type" id="Disaster_Type" required>
+                <option value="0">Flood</option>
+                <option value="1">Cyclone</option>
+                <option value="2">Storm</option>
+                <option value="3">Landslide</option>
+            </select>
+
+            <label for="Latitude">Latitude</label>
+            <input type="number" step="any" name="Latitude" id="Latitude"
+                   placeholder="Enter Latitude" required>
+
+            <label for="Longitude">Longitude</label>
+            <input type="number" step="any" name="Longitude" id="Longitude"
+                   placeholder="Enter Longitude" required>
+
+            <label for="Total_Deaths">Total Deaths</label>
+            <input type="number" name="Total_Deaths" id="Total_Deaths"
+                   min="0" placeholder="Enter Total Deaths" required>
+
+            <label for="Total_Affected">Total Affected</label>
+            <input type="number" name="Total_Affected" id="Total_Affected"
+                   min="0" placeholder="Enter Total Affected" required>
+
+            <label for="duration">Duration (Days)</label>
+            <input type="number" name="duration" id="duration"
+                   min="0" placeholder="Enter Duration" required>
+
+            <label for="time">Time</label>
+            <input type="number" name="time" id="time"
+                   min="0" placeholder="Enter Time" required>
+
+            <label for="Rainfall">Rainfall (mm)</label>
+            <input type="number" step="any" name="Rainfall" id="Rainfall"
+                   min="0" placeholder="Enter Rainfall" required>
+
+            <label for="Elevation">Elevation (m)</label>
+            <input type="number" step="any" name="Elevation" id="Elevation"
+                   placeholder="Enter Elevation" required>
+
+            <label for="Slope">Slope</label>
+            <input type="number" step="any" name="Slope" id="Slope"
+                   placeholder="Enter Slope" required>
+
+            <label for="distance">Distance</label>
+            <input type="number" step="any" name="distance" id="distance"
+                   min="0" placeholder="Enter Distance" required>
+
+            <button type="submit">
+                🌊 Predict Flood
+            </button>
+
+        </form>
+
+        {% if prediction %}
+
+        <div class="result-card">
+
+            <h2>{{ prediction }}</h2>
+
+            <h3>
+                Flood Risk: <strong>{{ risk }}%</strong>
+            </h3>
+
+            <canvas id="riskChart"></canvas>
+
+            <br><br>
+
+            <canvas id="barChart"></canvas>
+
+        </div>
+
+        <script>
+
+            const rainfall = Number("{{ rainfall | default(0) }}");
+            const deaths = Number("{{ deaths | default(0) }}");
+            const affected = Number("{{ affected | default(0) }}");
+            const risk = Number("{{ risk | default(0) }}");
+
+            // Doughnut Chart
+            new Chart(document.getElementById("riskChart"), {
+                type: "doughnut",
+                data: {
+                    labels: ["Flood Risk", "Safe"],
+                    datasets: [{
+                        data: [risk, 100 - risk],
+                        backgroundColor: [
+                            "#F44336",
+                            "#4CAF50"
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true
+                }
+            });
+
+            // Bar Chart
+            new Chart(document.getElementById("barChart"), {
+                type: "bar",
+                data: {
+                    labels: [
+                        "Rainfall",
+                        "Deaths",
+                        "Affected"
+                    ],
+                    datasets: [{
+                        label: "Entered Values",
+                        data: [
+                            rainfall,
+                            deaths,
+                            affected
+                        ],
+                        backgroundColor: [
+                            "#03A9F4",
+                            "#F44336",
+                            "#4CAF50"
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+        </script>
+
+        {% endif %}
+
+    </div>
+
+    <!-- Animated Water Waves -->
+    <div class="waves">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </div>
+
+    <!-- Rain Effect -->
+    <div class="rain"></div>
+
+</body>
+
+</html>
